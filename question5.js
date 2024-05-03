@@ -21,7 +21,11 @@ function findHighestRepeatedNum(arr) {
     }
   }
 
-  const result = `${highestRepeated} is repeated ${highestCount} times`;
+  const answer = `${highestRepeated} is repeated ${highestCount} times`;
 
-  return result;
+  return answer;
 }
+
+const arr = [4, 3, 5, 6, 4, 7, 9, 2, 4, 6, 3, 4, 6, 3, 4, 8, 5, 1, 5];
+const result = findHighestRepeatedNum(arr);
+console.log(result);
