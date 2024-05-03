@@ -1,3 +1,7 @@
+// Q#5: Write a function that will take an array of numbers and return the number most repeated
+// in the array with how many times it was repeated. For example, if the array is
+// [4,3,5,6,4,7,9,2,4,6,3,4,6,3,4,8,5,1,5] the function should return 4 is repeated 5 times.
+
 function findHighestRepeatedNum(arr) {
   if (arr.length === 0) {
     return null;
